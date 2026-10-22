@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+Header{
+    height: 100px;
+    width: 800px;
+background: #6b3ab4;
+background: linear-gradient(90deg, rgba(107, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+    
+     
+}
+
+ul, li{
+    display: flex;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 30px 30px;
+    justify-content: space-around;
+    padding: 0 5px;
+    
+
+   
+}
+
+ul li:hover{
+    background-color: gray;
+    color: white;
+}
